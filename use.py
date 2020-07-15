@@ -23,4 +23,5 @@ gpt2.finetune(sess,
               model_name=model_name,
               steps=100)   # steps is max number of training steps
 
+
 gpt2.generate(sess)
